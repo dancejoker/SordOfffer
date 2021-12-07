@@ -27,5 +27,4 @@ public class EntryNodeOfLoopSolution {
         }
         return fastNode;
     }
-
 }
