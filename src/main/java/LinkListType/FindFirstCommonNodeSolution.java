@@ -5,9 +5,9 @@ package LinkListType;
  * （注意因为传入数据是链表，所以错误测试数据的提示是用其他方式显示的，保证传入数据是正确的）
  */
 public class FindFirstCommonNodeSolution {
-    public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
-        ListNode index1 = pHead1;
-        ListNode index2 = pHead2;
+    public ListNodeDetail FindFirstCommonNode(ListNodeDetail pHead1, ListNodeDetail pHead2) {
+        ListNodeDetail index1 = pHead1;
+        ListNodeDetail index2 = pHead2;
         while(index1 != index2){
             if(index1 != null)
                 index1 = index1.next;

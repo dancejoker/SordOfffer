@@ -5,13 +5,13 @@ package LinkListType;
  * 如果该链表长度小于k，请返回一个长度为 0 的链表。
  */
 public class FindKthToTailSolution {
-    public ListNode FindKthToTail (ListNode pHead, int k) {
+    public ListNodeDetail FindKthToTail (ListNodeDetail pHead, int k) {
         // write code here
         if(pHead == null || k < 0){
             return null;
         }
-        ListNode fastIndex = pHead;
-        ListNode slowIndex = pHead;
+        ListNodeDetail fastIndex = pHead;
+        ListNodeDetail slowIndex = pHead;
 
         for(int i = 0;i < k;++i){
             if(fastIndex.next == null){
