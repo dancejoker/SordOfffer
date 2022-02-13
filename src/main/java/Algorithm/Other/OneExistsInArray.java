@@ -7,7 +7,5 @@ package Algorithm.Other;
  * 例如，1~13中包含1的数字有1、10、11、12、13因此共出现6次
  */
 public class OneExistsInArray {
-    public int NumberOf1Between1AndN_Solution(int n) {
 
-    }
 }

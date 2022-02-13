@@ -1,6 +1,4 @@
-package Tree;
-
-import java.util.Stack;
+package TreeType;
 
 /**
  * 描述

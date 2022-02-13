@@ -1,4 +1,4 @@
-package Tree;
+package TreeType;
 
 import java.util.Stack;
 //二叉搜索树与双向链表

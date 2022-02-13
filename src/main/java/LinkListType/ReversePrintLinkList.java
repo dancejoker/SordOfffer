@@ -7,9 +7,9 @@ import java.util.ArrayList;
  * 输入一个链表的头节点，按链表从尾到头的顺序返回每个节点的值（用数组返回）。
  */
 public class ReversePrintLinkList {
-    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+    public ArrayList<Integer> printListFromTailToHead(ListNodeDetail listNodeDetail) {
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
-        ListNode iterator = listNode;
+        ListNodeDetail iterator = listNodeDetail;
         while(iterator != null){
             arrayList.add(0,iterator.val);
             iterator = iterator.next;
@@ -22,12 +22,12 @@ public class ReversePrintLinkList {
         int i = 1;
 
         ArrayList<Integer> list = new ArrayList<Integer>();
-        ListNode it = new ListNode(0);
-        ListNode start = it;
+        ListNodeDetail it = new ListNodeDetail(0);
+        ListNodeDetail start = it;
 
 
         while (i <= num){
-            ListNode node = new ListNode(i);
+            ListNodeDetail node = new ListNodeDetail(i);
             it.next = node;
             it = it.next;
             ++i;

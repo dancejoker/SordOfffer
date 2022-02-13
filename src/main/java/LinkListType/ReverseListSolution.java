@@ -7,12 +7,13 @@ import java.util.ArrayList;
  * 输入一个长度为n链表，反转链表后，输出新链表的表头。
  */
 public class ReverseListSolution {
-    public ListNode ReverseList(ListNode head) {
+    public ListNodeDetail ReverseList(ListNodeDetail head) {
+
         if(head == null || head.next == null){
             return head;
         }
-        ListNode index = new ListNode(-9999);
-        ListNode node = null;
+        ListNodeDetail index = new ListNodeDetail(-9999);
+        ListNodeDetail node = null;
         while(head != null){
             node = head;
             head=head.next;
@@ -27,22 +28,22 @@ public class ReverseListSolution {
         int num = 5;
         int i = 1;
 
-        ListNode it = new ListNode(0);
-        ListNode start = it;
+        ListNodeDetail it = new ListNodeDetail(0);
+        ListNodeDetail start = it;
 
 
         while (i <= num){
-            ListNode node = new ListNode(i);
+            ListNodeDetail node = new ListNodeDetail(i);
             it.next = node;
             it = it.next;
             ++i;
         }
 
         ReverseListSolution reverseListSolution = new ReverseListSolution();
-        ListNode listNode = reverseListSolution.ReverseList(start);
-        while(listNode != null){
-            System.out.println(listNode.val);
-            listNode = listNode.next;
+        ListNodeDetail listNodeDetail = reverseListSolution.ReverseList(start);
+        while(listNodeDetail != null){
+            System.out.println(listNodeDetail.val);
+            listNodeDetail = listNodeDetail.next;
         }
 
     }

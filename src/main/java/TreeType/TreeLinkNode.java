@@ -1,4 +1,4 @@
-package Tree;
+package TreeType;
 
 public class TreeLinkNode {
     int val;

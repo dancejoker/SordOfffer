@@ -1,4 +1,4 @@
-package Tree;
+package TreeType;
 
 public class TreeNode {
     int val = 0;

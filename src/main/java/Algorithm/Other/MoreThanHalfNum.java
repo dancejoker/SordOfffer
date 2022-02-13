@@ -34,7 +34,7 @@ public class MoreThanHalfNum {
         for(int i=0; i < array.length; i++)
             if(array[i] == preValue)
                 num++;
-        return (num > array.length/2)?preValue:0;
+        return (num > array.length >> 1)?preValue:0;
 
     }
 }

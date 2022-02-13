@@ -1,4 +1,4 @@
-package Tree;
+package TreeType;
 
 /**
  * 描述
